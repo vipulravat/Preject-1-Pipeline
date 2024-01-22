@@ -1,17 +1,13 @@
 pipeline{
+    
     agent any
     
-    environment{
-         
-           VERSION_NAME="1.34"
-}
     stages 
    {
         
         stage('Build') {
             steps {
                 echo 'Build Application'
-                echo '${VERSION_NAME}'
             }
         }
         
