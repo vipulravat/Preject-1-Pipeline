@@ -1,9 +1,9 @@
-pipeline {
+pipeline{
     agent any
 
 tools{
 
-    MAVEN "maven"
+    MAVEN "MAVEN"
 
 }
     environment{
