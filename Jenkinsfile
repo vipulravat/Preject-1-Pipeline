@@ -1,11 +1,6 @@
 pipeline{
     agent any
-
-tools{
-
-    MAVEN "MAVEN"
-
-}
+    
     environment{
          
            VERSION_NAME="1.34"
